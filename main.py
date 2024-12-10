@@ -88,12 +88,11 @@ turtle.addshape("spider.gif")
 t2.shape("spider.gif")
 a = t2.stamp()
 
-t.clear()
-t2.clear()
-
+t.penup()
+t.goto(0,100)
 t.write("My favorite Movie", font=("Arial", 20, "bold"), align="center")
 t.penup()
-t.goto(-50,100)
+t.goto(0,0)
 t.write(" The Amazing Spider-man", font=("Arial", 20, "bold"), align="center")
 # end of screen 3
 
